@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'gmarket';
+    src:url('GmarketSans/GmarketSansTTFMedium.ttf');
+    src:url('GmarketSans/AnyConv.com__GmarketSansTTFMedium.eot') format('embedded-opentype'),url('GmarketSans/GmarketSansTTFMedium.woff') format('woff'),url('GmarketSans/GmarketSansTTFMedium.ttf') format('truetype'),url('GmarketSans/GmarketSansTTFMedium.svg') format('svg');
+}
+@font-face{
+    font-family: 'gmarket';
+    src: url('GmarketSans/GmarketSansTTFMedium.ttf');
+    
+}
+@font-face{
+    font-family: 'ntk';
+    src:url('NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf');
+    src:url('NanumFontSetup_TTF_SQUARE/AnyConv.com__NanumSquareR.eot') format('embedded-opentype'),url('NanumFontSetup_TTF_SQUARE/NanumSquareR.woff') format('woff'),url('NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf') format('truetype'),url('NanumFontSetup_TTF_SQUARE/NanumSquareR.svg') format('svg');
+}
+@font-face{
+    font-family: 'ntk';
+    src: url('NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf');
+    
+}
+@font-face {
+    font-family: "yungodic230";
+    src: url("fonts/HANYGO230.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "yungodic240";
+    src: url("fonts/HANYGO240.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "yungodic250";
+    src: url("fonts/HANYGO250.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "woolM";
+    src: url("fonts/HYWULM.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "woolB";
+    src: url("fonts/HYWULB.ttf") format("ttf");
+}
