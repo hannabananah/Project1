@@ -3039,74 +3039,52 @@ div[id^="summary"] strong {
 #footer .f_banner h2 {
   color: #fff;
   font-size: 18px;
-  margin: 10px 15px 10px 20px;
+  margin: 10px 10px 10px 15px;
 }
-
-#footer .f_banner p {
+/* 배너존 슬라이더 */
+.slideWrap{
+  position: relative;
+  bottom: 30px;
+  left: 175px;
+}
+.slideWrap .control_slider p a{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .9em;
+}
+  /* 좌우컨트롤 슬라이드 */
+.controls .bx-next, .controls .bx-prev{
+  font-size: 1.2em;
   position: absolute;
-  top: 15px;
-  left: 80px;
+  top:45%; 
+  transform: translateY(-40%);
+  text-decoration: none;
+}
+.controls .bx-next{
+  left:-4%;
+  color: #666;
+}
+.controls .bx-prev{
+  left:-7.5%;
+  color: #666;
 }
 
-#footer .f_banner p button {
-  background: url(../images/common_btn.png) no-repeat;
-  width: 29px;
-  height: 0;
-  padding: 29px 0 0 0;
-  overflow: hidden;
+.controls .bx-start, .controls .bx-stop{
+  font-size: 1.2em;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-40%);
+  text-decoration: none;
 }
-
-#footer .f_banner .stop {
-  background-position: 0px -108px;
+.controls .bx-start{
+  left:-14.5%;
+  color: #666;
 }
-
-#footer .f_banner .play {
-  background-position: -29px -108px;
-}
-
-#footer .f_banner .prev {
-  background-position: -87px -108px;
-}
-
-#footer .f_banner .next {
-  background-position: -116px -108px;
-}
-
-/* footer ban_wrap */
-
-#footer #ban_wrap {
-  width: 100%;
-  max-width: 490px;
-  overflow: hidden;
-  position: relative;
-  height: 35px;
-  left: 29%;
-  top: -35px;
-}
-
-/* footer list */
-
-#footer #ban_wrap .bx-wrapper {
-  max-width: 100%;
-  width: 100%;
-  position: relative;
-}
-
-#footer #ban_wrap .bx-wrapper #ban_ul {
-  overflow: hidden;
-  width: 500%;
-  position: relative;
-}
-
-#footer #ban_wrap .bx-wrapper #ban_ul li {
-  margin: 0 20px 0 0;
-  float: left;
-}
-
-#footer #ban_wrap .bx-wrapper #ban_ul li a {
-  display: block;
-  padding: 7px 0;
-  color: #b7b7b7;
+.controls .bx-stop{
+  left: -11%;
+  color: #666;
 }
 
 /* footer_bottom */

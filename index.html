@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/font/font.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="images/favicon/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+
     <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
     <script src="js/style.js"></script>
     <script src="js/detectmobilebrowser.js"></script>
     <script>
@@ -1165,33 +1167,15 @@
                     </div>
                     <div class="f_banner">
                         <h2>배너존</h2>
-                        <p>
-                            <button id="b_stop" class="stop">배너존 정지</button>
-                            <button id="b_play" class="play" style="display: none;">배너존 재생</button>
-                            <button id="b_prev" class="prev">배너존 이전</button>
-                            <button id="b_next" class="next">배너존 다음</button>
-                        </p>
-                        <div id="ban_wrap" class="list">
-                            <div class="bx-wrapper">
-                                <ul id="ban_ul">
-                                    <li><a href="sub.html">LAIIS 내고장알리미</a></li>
-                                    <li><a href="sub.html">행정자치부</a></li>
-                                    <li><a href="sub.html">안전신문고</a></li>
-                                    <li><a href="sub.html">대한민국정부포털</a></li>
-                                    <li><a href="sub.html">부동산거래관리</a></li>
-                                    <li><a href="sub.html">LAIIS 내고장알리미</a></li>
-                                    <li><a href="sub.html">행정자치부</a></li>
-                                    <li><a href="sub.html">안전신문고</a></li>
-                                    <li><a href="sub.html">대한민국정부포털</a></li>
-                                    <li><a href="sub.html">부동산거래관리</a></li>
-                                    <li><a href="sub.html">LAIIS 내고장알리미</a></li>
-                                    <li><a href="sub.html">행정자치부</a></li>
-                                    <li><a href="sub.html">안전신문고</a></li>
-                                    <li><a href="sub.html">대한민국정부포털</a></li>
-                                    <li><a href="sub.html">부동산거래관리</a></li>
-                                </ul>
+                        <div class="slideWrap controls cd">
+                            <div class="control_slider">
+                                <p><a href="#">LAIIS 내고장알리미</a></p>
+                                <p><a href="#">행정자치부</a></p>
+                                <p><a href="#">안전신문고</a></p>
+                                <p><a href="#">대한민국정부포털</a></p>
+                                <p><a href="#">부동산거래관리</a></p>
                             </div>
-                        </div>
+                        </div>                    
                     </div>
                 </div>
             </div>
@@ -1232,11 +1216,12 @@
             <!-- //id="footer_bottom_wrap" -->
         </div>
         <!-- //id="footer" -->
-        <a href="sub.html" id="back-to-top">Top</a>
+        <a href="#" id="back-to-top">Top</a>
     </div>
     <!-- //id="wrap" -->
     <script src="js/topbtn.js"></script>
     <script src="js/time.js"></script>
+    <script src="js/footer_slider.js"></script>
 </body>
 
 </html>

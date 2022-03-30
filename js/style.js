@@ -394,38 +394,4 @@ $(function() {
         cnt[c]--;
         footerSlideFn();
     }
-
-
-    /* f_slider btn */
-
-    $('#f_top .f_banner .next').on({
-        click: function() {
-            if (!$('#ban_wrap .bx-wrapper').eq(c).is(':animated')) {
-                nextCountFn();
-            }
-        }
-    })
-    $('#f_top .f_banner .prev').on({
-        click: function() {
-            if (!$('#ban_wrap .bx-wrapper').eq(c).is(':animated')) {
-                prevCountFn();
-            }
-        }
-    })
-
-    $('#b_stop').click(function() {
-        $('#b_stop').css({ display: 'none' });
-        $('#b_play').css({ display: 'inline-block' });
-    })
-    $('#b_play').click(function() {
-        $('#b_stop').css({ display: 'inline-block' });
-        $('#b_play').css({ display: 'none' });
-    })
-
-
-
-
-
-
-
 });
