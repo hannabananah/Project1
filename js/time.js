@@ -8,7 +8,7 @@ function tictok(i) {
 
 function showclock() {
     var d = new Date();
-    var date = d.getDate();
+    var date = tictok(d.getDate());
     var weekaday = ['일', '월', '화', '수', '목', '금', '토'];
     var week = weekaday[d.getDay()];
     var month = tictok(d.getMonth() + 1);

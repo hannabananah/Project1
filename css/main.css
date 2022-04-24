@@ -445,6 +445,8 @@ button {
 }
 
 #nav.style.action #sitelink .search {
+  width: 25.5px;
+  height: 25.5px;
   background-color: #f54f23;
 }
 
@@ -1147,14 +1149,14 @@ div[id^="summary"] strong {
 }
 
 #section1 .slick-dots:before {
-  content: "지금여기는,";
+  content: "\f3c5  지금여기는,";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   line-height: 1.7;
   min-height: 24px;
   color: #fff;
   display: inline-block;
-  padding-left: 30px;
   margin-right: 187px;
-  background: url(../images/icon-location.png) no-repeat top left;
 }
 
 #section1 .slick-dots:after {

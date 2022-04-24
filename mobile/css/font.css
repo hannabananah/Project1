@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* 나눔 스퀘어체 */
+@font-face {
+font-family: 'nsr';	
+font-weight: normal;
+font-style: normal;
+ src: url('/font/nanum_square_r.eot');
+ src: url('/font/nanum_square_r.eot?#iefix') format('embedded-opentype'), 
+       url('/font/nanum_square_r.woff') format('woff');
+}
+
+@font-face {
+font-family: 'nsr';	
+font-weight:600;
+font-style: normal;
+ src: url('/font/nanum_square_b.eot');
+ src: url('/font/nanum_square_b.eot?#iefix') format('embedded-opentype'), 
+       url('/font/nanum_square_b.woff') format('woff');
+}
+
+/* 본고딕 */
+@font-face{
+	font-family:'ntk';
+	font-weight:normal;
+	font-style: normal;
+	src:url("/font/notokr-demilight.eot");
+	src:url("/font/notokr-demilight.eot?#iefix") format('embedded-opentype'),
+		url("/font/notokr-demilight.woff2") format('woff2'),
+		url("/font/notokr-demilight.woff") format('woff');
+}
+
+
+@font-face{
+	font-family:'ntk';
+	font-weight:400;
+	font-style: normal;
+	src:url("/font/notokr-regular.eot");
+	src:url("/font/notokr-regular.eot?#iefix") format('embedded-opentype'),
+		url("/font/notokr-regular.woff2") format('woff2'),
+		url("/font/notokr-regular.woff") format('woff');
+}
+
+@font-face{
+	font-family:'ntk';
+	font-weight:700;
+	font-style: normal;
+	src:url("/font/notokr-bold.eot");
+	src:url("/font/notokr-bold.eot?#iefix") format('embedded-opentype'),
+		url("/font/notokr-bold.woff2") format('woff2'),
+		url("/font/notokr-bold.woff") format('woff');
+}              
+
+
+
+/* 
+@font-face{
+    font-family: 'dream';
+    src:url('S-Core_Dream_OTF/SCDream1.ttf');
+    src:url('S-Core_Dream_OTF/SCDream1.eot?#iefix') format('embedded-opentype'),url('S-Core_Dream_OTF/SCDream1.woff') format('woff'),url('S-Core_Dream_OTF/SCDream1.ttf') format('truetype'),url('S-Core_Dream_OTF/SCDream1.svg') format('svg');
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'dream';
+    src: url('S-Core_Dream_OTF/SCDream9.ttf');
+    font-weight: 900;
+}
+.dr{font-family: 'dream';}
+/* 서체 마일의 순서는 .eot, .woff, .ttf, .svg 의 순
+    ttf: 트루타입폰트 / 맥,윈도우 호환o, 모바일 브라우저와 호환성 우수
+    otf: 오픈타입폰트 / 맥,윈도우 호환o,고해상도폰트
+    svg: 웹용 벡터이미지/ 구형 ios 웹브라우저,크롬,오페라 호환
+    eot: 임베디드오픈타입/익스6~9
+    woff: 웹오픈폰트
+    woff2: 웹오픈폰트2
+*//* 
+@font-face{
+    font-family: 'sf';
+    src:url('SF/SF-Lamon-TTF.ttf');
+    src:url('SF/AnyConv.com__SF-Lamon-TTF.eot?#iefix') format('embedded-opentype'),url('SF/AnyConv.com__SF-Lamon-TTF.woff') format('woff'),url('SF/SF-Lamon-TTF.ttf') format('truetype'),url('S-Core_Dream_OTF/AnyConv.com__SF-TTF.svg') format('svg');
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'sf';
+    src: url('SF/SF-Lamon-TTF.ttf');
+    font-weight: 900;
+}
+.sf{font-family: 'sf';}
+ */

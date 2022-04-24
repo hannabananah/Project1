@@ -128,7 +128,7 @@ $(function() {
     }
 
 
-    /* section2 categoru item */
+    /* section2 category item */
     $('#section2 .category .item').mouseover(function() {
         $(this).addClass('on');
     })

@@ -13,6 +13,15 @@ $(function () {
         slideWidth: 125,
         startText:'<i class="fa-regular fa-circle-play"></i>',
         stopText:'<i class="fa-regular fa-circle-pause"></i>',
-        speed:1000,
+        speed:700,
+    });
+    $(".bx-stop").click(function() {
+        $(".bx-stop").bxSlider({ display: 'none' });
+        $(".bx-start").bxSlider({ display: 'inline-block' });
+    });
+    $(".bx-start").click(function() {
+        $(".bx-stop").bxSlider({ display: 'inline-block' });
+        $(".bx-start").bxSlider({ display: 'none' });
     });
 });
+
