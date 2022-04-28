@@ -3065,10 +3065,12 @@ div[id^="summary"] strong {
   text-decoration: none;
 }
 .controls .bx-next{
+  top: 9px;
   left:-4%;
   color: #666;
 }
 .controls .bx-prev{
+  top: 9px;
   left:-7.5%;
   color: #666;
 }

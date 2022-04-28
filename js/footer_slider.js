@@ -1,8 +1,7 @@
 $(function () {
-    /* ---------- 좌우 컨트롤 ---------- */
     $(".control_slider").bxSlider({
-        prevText: '<i class="fa-solid fa-circle-arrow-left"></i>',
-        nextText: '<i class="fa-solid fa-circle-arrow-right"></i>',
+        prevText: '<i class="far fa-arrow-alt-circle-left"></i>',
+        nextText: '<i class="far fa-arrow-alt-circle-right"></i>',
         auto: true,
         autoControls:true,
         stopAutoOnclick:true,
