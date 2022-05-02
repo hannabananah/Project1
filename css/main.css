@@ -3060,9 +3060,10 @@ div[id^="summary"] strong {
 .controls .bx-next, .controls .bx-prev{
   font-size: 1.2em;
   position: absolute;
-  top:45%; 
+  top:40%; 
   transform: translateY(-40%);
   text-decoration: none;
+  padding-bottom: 12px;
 }
 .controls .bx-next{
   top: 9px;
