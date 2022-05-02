@@ -1681,7 +1681,7 @@ div[id^="summary"] strong {
 
 #section2 .travel-slider-box .travel-slider .tb {
   position: absolute;
-  right: -21px;
+  right: 10px;
   bottom: -1px;
 }
 
@@ -3110,7 +3110,7 @@ div[id^="summary"] strong {
 }
 
 #footer .footer_bottom .right_box {
-  width: 750px;
+  width: 790px;
   margin: 40px 0 0 94px;
 }
 

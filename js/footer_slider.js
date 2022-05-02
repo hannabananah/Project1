@@ -2,6 +2,8 @@ $(function () {
     $(".control_slider").bxSlider({
         prevText: '<i class="far fa-arrow-alt-circle-left"></i>',
         nextText: '<i class="far fa-arrow-alt-circle-right"></i>',
+        startText:'<i class="far fa-play-circle"></i>',
+        stopText:'<i class="far fa-pause-circle"></i>',
         auto: true,
         autoControls:true,
         stopAutoOnclick:true,
@@ -10,9 +12,7 @@ $(function () {
         maxSlides:4,
         moveSlides: 1,
         slideWidth: 125,
-        startText:'<i class="fa-regular fa-circle-play"></i>',
-        stopText:'<i class="fa-regular fa-circle-pause"></i>',
-        speed:700,
+        speed:600,
     });
     $(".bx-stop").click(function() {
         $(".bx-stop").bxSlider({ display: 'none' });
